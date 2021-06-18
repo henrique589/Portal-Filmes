@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="emdestaque.html">Em destaque</a></li>
+            <li><a href="minhalista.html">Minha Lista</a></li>
+        </ul>
+        <input type="text" id="pesquisa" placeholder="Pesquisar"> <button onclick="pesquisaFilmes()" >Pesquisar</button>
+        <button onclick="carregaFilmes()">Filmes Populares</button>
+  </nav>
+  </header>
+    <div class="container-fluid">
+        <div class="row" id="tela">
+            <div class="card col-md-4">
+                <img src="imgs/Soul.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Soul</h5>
+                    <p class="card-text">Joe é um professor de música do ensino médio apaixonado por jazz, cuja vida não foi como ele esperava. Quando ele viaja a uma outra realidade para ajudar outra pessoa a encontrar sua paixão, ele descobre o verdadeiro sentido da vida.</p>
+                    <a href="https://www.themoviedb.org/movie/508442-soul?language=pt-BR" class="btn btn-primary">Ver análise</a>
+                </div>
+            </div>
+            <div class="card col-md-4">
+                <img src="imgs/Toy Story 4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Toy Story 4</h5>
+                    <p class="card-text">Woody, Buzz Lightyear e o resto da turma embarcam em uma viagem com Bonnie e um novo brinquedo chamado Forky. A aventura logo se transforma em uma reunião inesperada quando o ligeiro desvio que Woody faz o leva ao seu amigo há muito perdido, Bo Peep.</p>
+                    <a href="https://www.themoviedb.org/movie/301528-toy-story-4?language=pt-BR" class="btn btn-primary">Ver análise</a>
+                </div>
+            </div>
+            <div class="card col-md-4">
+                <img src="imgs/monstros_sa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Monstros S.A</h5>
+                    <p class="card-text">A maior fábrica de monstros do mundo conta com James Sullivan, um dos monstros mais assustadores, que tem o pelo azul e chifres, além de seu assistente e melhor amigo Mike, um monstro verde de um olho só. Eles têm por missão assustar as crianças, que são consideradas tóxicas pelos monstros e cujo contato com eles seria catastrófico para seu mundo. Porém, ao visitar o mundo dos humanos a trabalho, Mike e Sully conhecem a garota Boo, que acaba sem querer indo parar no mundo dos monstros.</p>
+                    <a href="https://www.themoviedb.org/movie/585-monsters-inc?language=pt-BR" class="btn btn-primary">Ver análise</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+      Copyright 2021 - Todos os direitos reservados - HenriqueFlix
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

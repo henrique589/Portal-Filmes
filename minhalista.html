@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Lista</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="emdestaque.html">Em destaque</a></li>
+            <li><a href="minhalista.html">Minha Lista</a></li>
+        </ul>
+        <input type="text" id="pesquisa" placeholder="Pesquisar"> <button onclick="pesquisaFilmes()" >Pesquisar</button>
+        <button onclick="carregaFilmes()">Filmes Populares</button>
+  </nav>
+  </header>
+  <div class="container-fluid">
+    <div class="row" id="tela">
+        <div class="card col-md-4">
+            <img src="imgs/lucifer.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Lucifer</h5>
+                <p class="card-text">Entediado com a vida nas trevas, o diabo se muda para Los Angeles, abre um piano-bar e empresta sua sabedoria a uma investigadora de assassinatos.</p>
+                <a href="https://www.themoviedb.org/tv/63174-lucifer?language=pt-BR" class="btn btn-primary">Ver análise</a>
+            </div>
+        </div>
+        <div class="card col-md-4">
+            <img src="imgs/loki.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Loki</h5>
+                <p class="card-text">Começando imediatamente depois que Loki rouba o Tesseract (de novo), ele se encontra diante da Autoridade de Variação Temporal, uma organização burocrática que existe fora do tempo e espaço. Forçado a responder por seus crimes contra a linha do tempo, ele recebe uma escolha: Ser deletado da realidade ou ajudar a capturar uma ameaça ainda maior.</p>
+                <a href="https://www.themoviedb.org/tv/84958-loki?language=pt-BR" class="btn btn-primary">Ver análise</a>
+            </div>
+        </div>
+        <div class="card col-md-4">
+            <img src="imgs/seettoth.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sweet Tooth</h5>
+                <p class="card-text">Baseada na adorada HQ da DC e com produção executiva de Susan Downey e Robert Downey Jr., Sweet Tooth é um conto de fadas pós-apocalíptico sobre um menino-cervo e um nômade solitário que embarcam juntos em uma aventura extraordinária.</p>
+                <a href="https://www.themoviedb.org/tv/103768-sweet-tooth?language=pt-BR" class="btn btn-primary">Ver análise</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="footer">
+      Copyright 2021 - Todos os direitos reservados - HenriqueFlix
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

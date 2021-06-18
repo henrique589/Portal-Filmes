@@ -1,0 +1,88 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header a{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+
+
+a:hover{
+    color: aquamarine;
+}
+
+.header{
+    background: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-image: url('imgs/movie.jpg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 100px;
+    padding: 1rem;
+
+}
+
+.footer{
+    background: cornflowerblue;
+    color: cornsilk;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.card col-md-4{
+    margin-bottom: 10px;
+}
+
+.card-text{
+    margin-bottom: 10px;
+}
+
+.card card-img-top{
+    width: 33.3%;
+    height: 50px;
+    max-height: 50%;
+    margin-bottom: 5px;
+}
+
+input:focus{
+    border-color: #323232;
+}
+
+input[type="text"]{
+    color: #323232;
+    border-radius: 55px;
+    cursor: pointer;
+    border-color: powderblue;
+    border-top: powderblue;
+}
+
+button{
+    border-radius: 20px;
+    background-color: white;
+}
+
+
+
